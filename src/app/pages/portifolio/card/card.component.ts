@@ -14,7 +14,7 @@ export class CardComponent implements OnInit{
     ) { 
 
     // http://127.0.0.1:4200/portifolio/2
-    this.activeRoute.params.subscribe(
+    this.activeRoute.firstChild?.params.subscribe(
       res => console.log(res)
     );
 
