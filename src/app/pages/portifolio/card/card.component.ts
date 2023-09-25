@@ -26,9 +26,9 @@ export class CardComponent implements OnInit{
   }
 
   ngOnInit(): void {
-    setInterval(() => {
-      this.navRoute.navigate(['/']);
-    }, 5000);
+    // setInterval(() => {
+    //   this.navRoute.navigate(['/']);
+    // }, 5000);
   
   };
 }
